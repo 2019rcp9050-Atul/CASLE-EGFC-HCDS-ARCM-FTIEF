@@ -6,7 +6,7 @@ Reproducibility repository for the research manuscript:
 
 ## About
 
-This repository provides the source code, computational materials, and reproducibility resources associated with the above research work.
+This repository provides the source code, Google Colab notebook, and reproducibility resources associated with the above research work.
 
 The proposed framework integrates causal-adaptive signature learning, entropy-guided feature compression, hybrid cognitive detection, adversarial robustness calibration, and federated threat intelligence.
 
@@ -36,15 +36,19 @@ DOI: 10.5281/zenodo.4743746
 
 ## Source Code
 
-The complete Python implementation of the proposed framework is provided in this repository.
+The complete Python implementation of the proposed framework is provided in:
+
+`full_scie_ids_analysis.py`
 
 ## Google Colab Notebook
 
-The corresponding Google Colab notebook used for the experimental implementation is provided in this repository.
+The Google Colab notebook used for the experimental implementation is provided in:
+
+`Full_SCIe_IDS_Analysis.ipynb`
 
 ## Reproducibility Materials
 
-The repository contains materials supporting reproducibility of the reported experiments, including:
+The repository provides the implementation and notebook required to reproduce the experimental workflow reported in the manuscript, including:
 
 - Data preprocessing and feature harmonization
 - Model configurations
@@ -56,17 +60,18 @@ The repository contains materials supporting reproducibility of the reported exp
 - Adversarial robustness evaluation
 - Federated learning evaluation
 - Statistical analysis
-- Experimental results and metrics
-- Model and prediction outputs
-- Computational configuration information
+- Experimental evaluation procedures
+
+The provided implementation generates the corresponding experimental outputs, metrics, statistical results, predictions, plots, configuration information, and other reproducibility materials during execution.
 
 ## Reproducibility
 
-The provided implementation is intended to facilitate independent reproduction and verification of the experimental workflow reported in the manuscript.
+The provided Python implementation and Google Colab notebook are intended to facilitate independent reproduction and verification of the experimental workflow reported in the manuscript.
+
+The original benchmark datasets should be obtained directly from their respective data providers using the links provided above.
 
 ## Data Availability
 
 The original benchmark datasets remain available from their respective data providers through the links provided above. They are not redistributed in this repository.
 
-The study-derived source code and reproducibility materials are provided through this repository.
-
+The study-derived source code and Google Colab notebook are publicly available through this repository. Additional generated reproducibility materials can be produced by executing the provided implementation.
